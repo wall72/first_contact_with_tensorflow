@@ -9,7 +9,7 @@ import tensorflow as tf
 a = tf.placeholder(tf.float32)
 b = tf.placeholder(tf.float32)
 
-y = tf.mul(a, b)
+y = tf.multiply(a, b)
 
 with tf.Session() as sess:
 
